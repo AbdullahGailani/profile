@@ -130,6 +130,7 @@
 }
 /* what can we create */
 .what_can_we_build {
+  margin-bottom: 50px;
 }
 .create-title {
   margin: 50px 0px;
@@ -158,12 +159,14 @@
 /* projects */
 .projects-container {
   background-color: #3f3f3f;
-  padding: 30px 0px;
+  padding-bottom: 80px;
+  border-bottom: 0.5px solid grey;
 }
-.project-container-title {
+.title {
   font-size: 50px;
   color: white;
   margin-bottom: 15px;
+  padding-top: 50px;
 }
 .projects {
   display: grid;
@@ -197,4 +200,91 @@
 }
 .project-btn:hover {
   transform: translateY(-10%);
+}
+/* contact */
+.contact {
+  background-color: #3f3f3f;
+  border-bottom: 0.5px solid grey;
+  padding-bottom: 70px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  margin: 0 auto;
+  gap: 15px;
+  align-items: center;
+}
+.contact-form h1 {
+  text-align: center;
+}
+.contact-form input {
+  padding: 10px 20px;
+  width: 200px;
+  background-color: transparent;
+  outline: none;
+  border: 0.5px solid grey;
+  border-radius: 25px;
+  color: white;
+}
+.contact-form input::placeholder {
+  color: white;
+}
+.email {
+  width: 448px !important;
+}
+.contact-form textarea {
+  font-size: 18px;
+  height: 100px;
+  width: 460px;
+  resize: none;
+  outline: none;
+  padding: 15px;
+  background-color: transparent;
+  color: white;
+  border-radius: 15px;
+}
+.contact-form textarea::placeholder {
+  color: white;
+}
+.submit-btn {
+  width: 300px;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0.5px solid grey;
+  color: white;
+  transition: 0.5s;
+}
+.submit-btn:hover {
+  background-color: #373636;
+}
+/*footer */
+footer {
+  background-color: #3f3f3f;
+}
+.footer {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.align {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.align a {
+  text-decoration: none;
+  color: white;
+}
+.align a:hover {
+  text-decoration: underline;
+  color: white;
+}
+.copyRight {
+  text-align: center;
+  color: white;
+  padding: 30px 0px 10px 0;
 }
