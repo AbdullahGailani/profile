@@ -358,12 +358,16 @@ footer {
     height: 50vh;
   }
   .hero-img {
-    display: none;
+    height: 250px;
+    width: 250px;
   }
 }
 @media (max-width: 645px) {
   .container {
     width: auto;
+  }
+  .hero {
+    height: auto;
   }
   .nav {
     display: none;
@@ -418,6 +422,14 @@ footer {
   .submit-btn {
     width: 200px;
     font-size: 15px;
+  }
+  .create {
+    height: auto;
+  }
+  .create img {
+    height: 150px;
+    width: 200px;
+    margin: 0 auto;
   }
 }
 @media (max-width: 345) {
