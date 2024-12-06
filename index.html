@@ -15,18 +15,20 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <section class="nav">
-      <a href="#why-us">Why Choose us ?</a>
-      <a href="">What can we Build</a>
-      <a href="">Projects</a>
-      <a href="">Contact</a>
+    <section class="nav-container">
+      <section class="nav">
+        <button class="go-to go-to-home" value="why-us">home</button>
+        <button class="go-to go-to-services" value="services">Services</button>
+        <button class="go-to go-to-projects" value="projets">Projects</button>
+        <button class="go-to go-to-contact" value="contact">contact</button>
+      </section>
     </section>
 
     <section class="hero">
       <div class="hero-desc center">
         <h1><span class="auto-type"></span></h1>
         <p>is a full-stack web developer from Kurdistan, Erbil</p>
-        <button class="btn">Contact</button>
+        <button class="go-to go-to-contact btn" value="contact">contact</button>
       </div>
       <div class="hero-img center">
         <img src="./Images/hero-il.png" alt="" />
@@ -77,14 +79,14 @@
       </div>
     </section>
     <!-- what can we build -->
-    <section class="what_can_we_build">
+    <section class="what_can_we_build" id="services">
       <div class="container">
         <h1 class="create-title">What Can we Create</h1>
         <div class="creates">
           <div class="create">
             <img src="./Images/2918517.webp" alt="" />
             <div class="what-desc">
-              <h1>Professional Website</h1>
+              <h1>Web Application</h1>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
                 sapiente eum libero, minima quibusdam possimus officiis corrupti
@@ -97,7 +99,7 @@
 
           <div class="create">
             <div class="what-desc">
-              <h1>Professional PC Application</h1>
+              <h1>Desktop Application</h1>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
                 sapiente eum libero, minima quibusdam possimus officiis corrupti
@@ -112,7 +114,7 @@
           <div class="create">
             <img src="./Images/phone.png" alt="" />
             <div class="what-desc">
-              <h1>Professional Mobile Application</h1>
+              <h1>Mobile Application</h1>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
                 sapiente eum libero, minima quibusdam possimus officiis corrupti
@@ -125,7 +127,7 @@
 
           <div class="create">
             <div class="what-desc">
-              <h1>Point of View System</h1>
+              <h1>Point of Sale System</h1>
               <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
                 sapiente eum libero, minima quibusdam possimus officiis corrupti
@@ -140,7 +142,7 @@
       </div>
     </section>
     <!-- Projects -->
-    <section class="projects-container">
+    <section class="projects-container" id="projets">
       <div class="container">
         <h1 class="title">Projects</h1>
 
@@ -183,7 +185,7 @@
 
     <!-- contact -->
 
-    <section class="contact">
+    <section class="contact" id="contact">
       <div class="container">
         <form class="contact-form" action="#">
           <h1 class="title">Contact us</h1>
